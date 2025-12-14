@@ -40,6 +40,218 @@
 
 ---
 
+## 🎯 Use Case (Skenario Penggunaan)
+
+Berikut adalah 3 skenario penggunaan aplikasi Lapor Mangan! dari sudut pandang pengguna:
+
+### Use Case 1: Mencari Makan Siang di Sekitar Lokasi
+
+**Pengguna:** Andi, mahasiswa yang sedang lapar saat istirahat kuliah
+
+**Situasi:** Andi baru selesai kuliah dan ingin mencari tempat makan siang yang dekat dari kampusnya. Dia tidak punya banyak waktu karena kuliah berikutnya dimulai 1 jam lagi.
+
+**Langkah-langkah:**
+1. Andi membuka aplikasi **Lapor Mangan!** di browser HP-nya
+2. Browser meminta izin lokasi, Andi klik **"Izinkan"**
+3. Andi klik tombol **📍 Terdekat** untuk mencari kuliner terdekat
+4. Muncul daftar kuliner yang diurutkan berdasarkan jarak terdekat
+5. Andi mengaktifkan filter **"Hanya tampilkan yang buka sekarang"** agar tidak kecewa
+6. Andi melihat **Bakso President** hanya berjarak 500m dan sedang buka
+7. Andi klik untuk melihat detail: alamat, jam buka, dan kisaran harga
+8. Andi mengikuti rute di peta dan pergi ke lokasi
+
+**Hasil:** Andi berhasil menemukan tempat makan siang yang dekat, buka, dan sesuai budget dalam waktu singkat.
+
+---
+
+### Use Case 2: Rekomendasi Makanan Saat Hujan
+
+**Pengguna:** Sari, karyawan yang ingin makan malam bersama teman
+
+**Situasi:** Sari dan temannya baru selesai kerja. Cuaca di luar sedang hujan deras dan mereka bingung mau makan apa yang cocok untuk cuaca dingin.
+
+**Langkah-langkah:**
+1. Sari membuka aplikasi **Lapor Mangan!**
+2. Sari melihat ikon cuaca di header menunjukkan **🌧 Hujan, 24°C**
+3. Sari klik tombol **🌤 Rekomendasi Cuaca**
+4. Aplikasi menampilkan rekomendasi makanan hangat: **Soto Sokaraja**, **Bakso Mbah Lintang**, dan **Lontong Sayur**
+5. Sari masih ragu, lalu membuka **MakanBot** (💬)
+6. Sari bertanya: *"Mau makan yang hangat dan enak buat rame-rame"*
+7. MakanBot menjawab: *"Kalau hujan begini, cocok banget makan Soto Sokaraja yang kuahnya gurih dan hangat. Atau coba Nasi Liwet Mbah Maimun yang porsinya pas untuk makan bareng!"*
+8. Sari memilih **Nasi Liwet Mbah Maimun**, melihat detailnya, dan mengajak temannya ke sana
+
+**Hasil:** Sari dan temannya menikmati makan malam dengan makanan yang cocok untuk cuaca hujan berdasarkan rekomendasi aplikasi.
+
+---
+
+### Use Case 3: Menambahkan Kuliner Favorit yang Belum Terdaftar
+
+**Pengguna:** Budi, warga lokal Purwokerto yang suka kulineran
+
+**Situasi:** Budi baru menemukan warung sate enak di dekat rumahnya yang belum ada di aplikasi Lapor Mangan. Dia ingin berbagi informasi agar orang lain juga bisa menikmatinya.
+
+**Langkah-langkah:**
+1. Budi membuka aplikasi **Lapor Mangan!**
+2. Budi mencari "Sate Kambing Pak Eko" tapi tidak ditemukan
+3. Budi klik tombol **➕** di bagian header untuk menambah kuliner baru
+4. Form tambah kuliner terbuka, Budi mengisi:
+   - **Nama:** Sate Kambing Pak Eko
+   - **Kategori:** Sate
+   - **Alamat:** Jl. Veteran No. 45, Purwokerto
+   - **Jam Operasional:** 17:00 - 22:00
+   - **Harga:** Rp 20.000 - Rp 35.000
+   - **Deskripsi:** Sate kambing empuk dengan bumbu kacang khas, porsi besar dan harga terjangkau. Cocok untuk makan malam!
+   - **URL Foto:** (Budi upload foto dari HP)
+5. Budi klik **Simpan**
+6. Kuliner baru muncul di daftar dan peta
+
+**Hasil:** Budi berhasil berkontribusi menambahkan kuliner baru. Sekarang pengguna lain bisa menemukan Sate Kambing Pak Eko melalui aplikasi.
+
+---
+
+### Use Case 4: Bingung Mau Makan Apa? Pakai Fitur Acak!
+
+**Pengguna:** Dina, anak kos yang bosan dengan menu yang itu-itu saja
+
+**Situasi:** Dina sudah bosan makan di tempat yang sama setiap hari. Dia ingin mencoba sesuatu yang baru tapi tidak tahu mau makan apa.
+
+**Langkah-langkah:**
+1. Dina membuka aplikasi **Lapor Mangan!**
+2. Dina melihat banyak pilihan tapi tetap bingung mau pilih yang mana
+3. Dina klik tombol **🎲 Acak Pilihan**
+4. Aplikasi secara random memilih **Gudeg Mbah Siti**
+5. Dina melihat detail: foto makanan terlihat enak, harga Rp 20.000-30.000
+6. Dina klik lagi **🎲 Acak Pilihan** untuk opsi lain
+7. Muncul **Tempe Mendoan** - Dina tertarik karena murah dan belum pernah coba
+8. Dina memutuskan untuk pergi ke Pasar Sokaraja mencoba mendoan
+
+**Hasil:** Dina menemukan kuliner baru yang belum pernah dicoba berkat fitur acak, menghilangkan kebosanan menu harian.
+
+---
+
+### Use Case 5: Mencari Kuliner Murah untuk Anak Kos
+
+**Pengguna:** Riko, mahasiswa dengan budget terbatas
+
+**Situasi:** Akhir bulan, uang saku Riko tinggal sedikit. Dia butuh makan yang murah tapi tetap enak dan mengenyangkan.
+
+**Langkah-langkah:**
+1. Riko membuka aplikasi **Lapor Mangan!**
+2. Riko klik dropdown **"Urutkan"** dan pilih **"Harga Terendah"**
+3. Daftar kuliner berubah, menampilkan yang paling murah di atas
+4. Riko melihat **Tempe Mendoan** (Rp 2.000-5.000) dan **Bakso Mbah Lintang** (Rp 8.000-15.000)
+5. Riko ingin yang lebih spesifik, buka **MakanBot** (💬)
+6. Riko bertanya: *"Mau makan murah tapi kenyang"*
+7. MakanBot menjawab: *"Coba Lontong Sayur Mbah Rini (Rp 12.000-18.000), porsinya besar dan mengenyangkan! Atau Bakso Mbah Lintang yang murah meriah."*
+8. Riko memilih Lontong Sayur dan pergi ke Jl. Ahmad Yani
+
+**Hasil:** Riko berhasil menemukan makanan enak dengan harga ramah kantong mahasiswa.
+
+---
+
+### Use Case 6: Wisatawan Mencari Kuliner Legendaris Purwokerto
+
+**Pengguna:** Tono, wisatawan dari Jakarta yang berkunjung ke Purwokerto
+
+**Situasi:** Tono pertama kali ke Purwokerto dan ingin mencoba kuliner khas yang legendaris dan terkenal di kota ini.
+
+**Langkah-langkah:**
+1. Tono membuka aplikasi **Lapor Mangan!** setelah tiba di Purwokerto
+2. Tono membuka **MakanBot** (💬) untuk bertanya
+3. Tono bertanya: *"Kuliner legendaris Purwokerto apa ya?"*
+4. MakanBot menjawab: *"Purwokerto punya banyak kuliner legendaris! Soto Sokaraja dan Sate Bebek Tambak adalah yang paling terkenal. Jangan lupa coba Tempe Mendoan juga!"*
+5. Tono ketik "Soto Sokaraja" di kotak pencarian
+6. Muncul detail **Soto Sokaraja** - Tono melihat alamat di Jl. Jend. Sudirman
+7. Tono klik marker di peta untuk melihat lokasinya
+8. Tono mengikuti rute dan menikmati soto legendaris Purwokerto
+
+**Hasil:** Tono sebagai wisatawan berhasil menemukan dan mencoba kuliner ikonik Purwokerto dengan bantuan MakanBot.
+
+---
+
+### Use Case 7: Mencari Tempat Makan untuk Keluarga
+
+**Pengguna:** Ibu Ratna, ibu rumah tangga yang ingin mengajak keluarga makan di luar
+
+**Situasi:** Hari Minggu, Ibu Ratna ingin mengajak suami dan 2 anaknya makan di luar. Dia butuh tempat yang ada parkir dan tidak terlalu mahal.
+
+**Langkah-langkah:**
+1. Ibu Ratna membuka aplikasi **Lapor Mangan!**
+2. Ibu Ratna pilih kategori **"Makanan Berat"** untuk menu lengkap
+3. Ibu Ratna urutkan berdasarkan **"Harga Terendah"**
+4. Muncul beberapa pilihan, Ibu Ratna klik **Nasi Liwet Mbah Maimun**
+5. Di detail, Ibu Ratna mengecek:
+   - ✅ Harga: Rp 18.000-25.000 (terjangkau untuk keluarga)
+   - ✅ Parkir: Tersedia
+   - ✅ Jam: 16:00-22:00 (cocok untuk makan malam)
+6. Ibu Ratna juga cek **Ayam Bakar Pak Tono** sebagai alternatif
+7. Keluarga memutuskan pergi ke Nasi Liwet Mbah Maimun
+
+**Hasil:** Ibu Ratna menemukan tempat makan keluarga yang sesuai kriteria: ada parkir, harga terjangkau, dan porsi cocok untuk keluarga.
+
+---
+
+### Use Case 8: Mencari Makanan untuk Dibawa Pulang (Take Away)
+
+**Pengguna:** Yoga, pekerja kantoran yang ingin bawa makanan pulang
+
+**Situasi:** Yoga ingin membeli makanan untuk dibawa pulang sebagai makan malam bersama keluarga di rumah. Dia butuh yang praktis dan bisa dibungkus.
+
+**Langkah-langkah:**
+1. Yoga membuka aplikasi **Lapor Mangan!** saat jam pulang kantor
+2. Yoga buka **MakanBot** dan bertanya: *"Makanan yang enak dibungkus bawa pulang apa ya?"*
+3. MakanBot menjawab: *"Untuk dibawa pulang, Sate Bebek Tambak dan Ayam Bakar Pak Tono cocok banget! Praktis dan tetap enak dimakan di rumah."*
+4. Yoga cari "Sate Bebek" di kotak pencarian
+5. Yoga cek jam operasional: 16:00-22:00 (pas dengan jam pulang kantor)
+6. Yoga lihat di peta, lokasinya searah dengan jalan pulang
+7. Yoga mampir ke **Sate Bebek Tambak** dan membeli untuk dibungkus
+
+**Hasil:** Yoga berhasil menemukan makanan yang cocok untuk take away dan lokasinya searah jalan pulang.
+
+---
+
+### Use Case 9: Mencari Jajanan untuk Oleh-Oleh
+
+**Pengguna:** Maya, mahasiswi yang akan pulang kampung
+
+**Situasi:** Maya akan pulang ke kampung halaman dan ingin membawa oleh-oleh khas Purwokerto untuk keluarga.
+
+**Langkah-langkah:**
+1. Maya membuka aplikasi **Lapor Mangan!**
+2. Maya pilih filter kategori **"Jajanan Tradisional"**
+3. Muncul **Tempe Mendoan** sebagai hasil utama
+4. Maya buka **MakanBot** untuk bertanya lebih lanjut
+5. Maya: *"Oleh-oleh khas Purwokerto apa yang awet?"*
+6. MakanBot: *"Tempe Mendoan adalah oleh-oleh khas Purwokerto yang paling terkenal! Bisa dibeli dalam jumlah banyak dan tahan beberapa jam. Beli di Pasar Sokaraja untuk yang paling autentik."*
+7. Maya melihat detail **Tempe Mendoan**: harga Rp 2.000-5.000 per porsi
+8. Maya pergi ke Pasar Sokaraja dan membeli mendoan dalam jumlah banyak
+
+**Hasil:** Maya berhasil menemukan jajanan khas Purwokerto yang cocok untuk oleh-oleh keluarga.
+
+---
+
+### Use Case 10: Mengecek Cuaca Sebelum Pergi Makan
+
+**Pengguna:** Fajar, ojol (ojek online) yang ingin makan saat break
+
+**Situasi:** Fajar sedang istirahat dari orderan dan ingin makan. Tapi dia khawatir cuaca karena harus parkir motor di luar.
+
+**Langkah-langkah:**
+1. Fajar membuka aplikasi **Lapor Mangan!**
+2. Fajar klik **ikon cuaca** di pojok kanan atas
+3. Detail cuaca muncul:
+   - ☀️ Cerah, 32°C
+   - Kelembapan: 65%
+   - Tidak ada tanda hujan
+4. Fajar merasa aman untuk makan di tempat yang parkirnya outdoor
+5. Fajar klik **📍 Terdekat** untuk cari makan dekat lokasi
+6. Muncul **Bakso President** dengan info parkir tersedia
+7. Fajar pergi ke sana dengan tenang karena cuaca cerah
+
+**Hasil:** Fajar bisa merencanakan makan dengan mempertimbangkan cuaca, menghindari kehujanan saat parkir motor.
+
+---
+
 ## 📖 Cara Menggunakan
 
 ### 1. Membuka Aplikasi
